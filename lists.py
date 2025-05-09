@@ -1,9 +1,9 @@
 # Replace the "ANSWER HERE" with your answer
 
 def remove_elements(list_to_remove_elements):
-    Remove = [0,4,5]
+    Remove = [5,4,0]
     nueva = list_to_remove_elements[:]
-    for i in sorted(Remove, reverse=True): #esto hace que ordene de mayor a menor y evita que se desordene
+    for i in (Remove):
         if i <len(nueva):
             del nueva[i]
     return nueva
